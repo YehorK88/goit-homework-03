@@ -13,6 +13,8 @@
 
 .nav-links {
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-list {
@@ -248,10 +250,7 @@ header {
   align-items: center;
 }
 
-.nav-links {
-  display: flex;
-  gap: 40px;
-}
+
 
 .contacts-list {
   display: flex;
