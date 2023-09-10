@@ -78,6 +78,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .button {
@@ -89,14 +90,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 
-  display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
-
-border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -192,4 +190,45 @@ h1, h2, h3, h4, h5, h6, p {
 ul, ol {
 	margin: 0;
 	padding-left: 0;
+}
+
+img{
+  display: block;
+}
+
+header{
+  border-bottom: 1px solid #e7e9fc
+}
+.header-inner{
+  display: flex;
+}
+.container{
+  width: 1158px; 
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+.logo .half-logo{
+  margin-right: 76px;
+}
+.nav-links{
+  display: flex; 
+  gap:40px;
+}
+.nav-list{
+  padding: 24px 0;
+}
+
+.contacts-list{
+  display: flex;
+  gap: 40px;
+}
+
+.section-first{
+  padding: 188px 0;
 }
