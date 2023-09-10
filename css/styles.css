@@ -5,6 +5,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .half-logo {
   color: #2e2f42;
@@ -19,6 +20,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0
 }
 
 .nav-list:hover,
@@ -253,9 +255,7 @@ header{
   display: flex;
   align-items: center;
 }
-.full-logo{
-  margin-right: 76px;
-}
+
 .nav-links{
   display: flex; 
   gap:40px;
