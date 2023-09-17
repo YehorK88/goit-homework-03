@@ -15,7 +15,7 @@
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding: 0;
 }
 
 .nav-list {
@@ -23,7 +23,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
+  padding: 0;
 }
 
 .nav-list:hover,
@@ -36,7 +36,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
+  padding: 0;
 }
 
 .nav-list-links:hover,
@@ -92,6 +92,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -109,6 +111,10 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+
+  margin: 0 auto;
+
+  margin-top: 48px;
 }
 .button:hover,
 .button:focus {
@@ -211,12 +217,8 @@ body {
   max-width: 264px;
 }
 
-h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
 }
@@ -252,14 +254,14 @@ header {
   align-items: center;
 }
 
-
-
 .contacts-list {
   display: flex;
   gap: 40px;
   list-style: none;
   padding: 0;
   justify-content: flex-end;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .section-second {
