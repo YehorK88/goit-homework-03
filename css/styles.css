@@ -263,6 +263,7 @@ header {
   justify-content: flex-end;
   margin-top: 24px;
   margin-bottom: 24px;
+  padding: 24px 0;
 }
 
 .section-second {
