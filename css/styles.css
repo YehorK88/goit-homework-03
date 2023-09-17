@@ -15,7 +15,8 @@
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 0;
+  
+  padding: 24px 0;
 }
 
 .nav-list {
