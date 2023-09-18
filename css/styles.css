@@ -201,7 +201,7 @@ body {
 
 .footer-class {
   background-color: #2e2f42;
-  padding: 140px 1020px 100px 156px;
+  padding: 140px 1020px 156px 100px;
 }
 
 .footer-logo {
@@ -254,6 +254,7 @@ header {
 
 .container {
   width: 1158px;
+  height: 72px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -271,7 +272,7 @@ header {
   padding: 0;
   justify-content: flex-end;
   margin: 24px auto;
-  padding: 24px 0;
+  padding: 0 auto;
 }
 
 .section-second {
@@ -332,5 +333,35 @@ header {
   border-top: none;
 }
 
-.container {
+.container-1{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-2{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-3{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-4{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-5{
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
