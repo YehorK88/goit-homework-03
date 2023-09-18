@@ -250,11 +250,11 @@ header {
 .header-inner {
   display: flex;
   justify-content: space-between;
+  height: 72px;
 }
 
 .container {
   width: 1158px;
-  height: 72px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -333,34 +333,8 @@ header {
   border-top: none;
 }
 
-.container-1{
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
-.container-2{
+.footer-container{
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.container-3{
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.container-4{
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.container-5{
-  width: 1158px;
-  margin: 0 auto;
- 
 }
