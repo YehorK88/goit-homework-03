@@ -201,7 +201,7 @@ body {
 
 .footer-class {
   background-color: #2e2f42;
-  padding: 140px 1020px 156px 100px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -256,7 +256,7 @@ header {
 .container {
   width: 1158px;
   margin: 0 auto;
-  
+  padding: 0 15px;
 }
 
 .nav {
